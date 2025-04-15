@@ -4,7 +4,7 @@ Welcome to LeFood, a modern and intuitive food ordering app built with React and
 
 ## Table of Contents
 - Features
-- [Installation](#installation)
+- Installation
 - Usage
 - API Endpoints
 - Environment Variables
@@ -85,6 +85,5 @@ The project uses environment variables to manage sensitive information. Ensure y
 We welcome contributions to improve LeFood! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Thank you for using LeFood! We hope you enjoy your food ordering experience. If you have any questions or need assistance, feel free to reach out.
