@@ -4,7 +4,7 @@ Welcome to LeFood, a modern and intuitive food ordering app built with React and
 
 ## Table of Contents
 - Features
-- Installation
+- [Installation](#installation)
 - Usage
 - API Endpoints
 - Environment Variables
@@ -37,13 +37,23 @@ To get started with the project, follow these steps:
     MONGO_URI=<your-mongo-uri>
     ```
 
-4. **Start the development server**:
+4. **Start the backend server**:
     ```bash
-    npm start
+    npm nodemon index.js
+    ```
+    or
+    ```bash
+    npx nodemon index.js
+    (for MacOS)
+    ```
+
+5. **Start the frontend development server**:
+    ```bash
+    npm run dev
     ```
 
 ## Usage
-Once the development server is running, you can access the app at http://localhost:5173. Here are some key functionalities:
+Once the development server is running, you can access the app at [http://localhost:5173]:
 
 - **Sign Up**: Create a new account to start ordering food.
 - **Log In**: Access your account to manage your orders.
